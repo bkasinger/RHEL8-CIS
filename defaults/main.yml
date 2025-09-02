@@ -12,18 +12,18 @@ os_check: true
 system_is_ec2: false
 
 rhel8cis_section1: true
-rhel8cis_section2: true
-rhel8cis_section3: true
-rhel8cis_section4: true
-rhel8cis_section5: true
-rhel8cis_section6: true
+rhel8cis_section2: false
+rhel8cis_section3: false
+rhel8cis_section4: false
+rhel8cis_section5: false
+rhel8cis_section6: false
 
 rhel8cis_level_1: true
-rhel8cis_level_2: true
+rhel8cis_level_2: false
 rhel8cis_selinux_disable: false
 
 # Some tests can have a heavy impact on system e.g. find on all filesystems etc
-rhel8cis_disruption_high: false
+rhel8cis_disruption_high: true
 
 ## Python Binary
 ## This is used for python3 Installations where python2 OS modules are used in ansible
@@ -39,7 +39,7 @@ benchmark: RHEL8-CIS
 benchmark_version: v3.0.0
 
 # Whether to skip the reboot
-skip_reboot: true
+skip_reboot: false
 
 # Modify behavior of changed_when if reboot is pending and skipped to allow idempotency to succeed
 reboot_warning_changed_when: true
@@ -119,9 +119,9 @@ rhel8cis_rule_1_1_1_2: true
 rhel8cis_rule_1_1_1_3: true
 rhel8cis_rule_1_1_1_4: true
 rhel8cis_rule_1_1_1_5: true
-rhel8cis_rule_1_1_1_6: true
-rhel8cis_rule_1_1_1_7: true
-rhel8cis_rule_1_1_1_8: true
+rhel8cis_rule_1_1_1_6: false # level 2
+rhel8cis_rule_1_1_1_7: false # level 2
+rhel8cis_rule_1_1_1_8: false # level 2
 
 # /tmp
 rhel8cis_rule_1_1_2_1_1: true
