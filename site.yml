@@ -5,3 +5,4 @@
   become: true
   roles:
     - role: "{{ playbook_dir }}"
+  tags: level1-server
