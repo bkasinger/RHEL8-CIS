@@ -33,6 +33,14 @@
       community.general.modprobe:
         name: cramfs
         state: absent
+
+    - name: "check if cramfs is loaded"
+      ansible.builtin.shell: lsmod | grep cramfs | default('not-found')
+      register: output
+    - name: "show_results"
+      ansible.builtin.debug:
+         msg: "cramfs output is {{ output }}"
+
     - name: "1.1.1.1 | PATCH | Remediate modprobe"
       when:
         - not system_is_container
