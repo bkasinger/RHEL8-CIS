@@ -35,7 +35,7 @@
         state: absent
 
     - name: "check if cramfs is loaded"
-      ansible.builtin.shell: lsmod | grep cramfs | default('not-found')
+      ansible.builtin.shell: lsmod | grep cramfs
       register: output
     - name: "show_results"
       ansible.builtin.debug:
@@ -44,6 +44,7 @@
     - name: "1.1.1.1 | PATCH | Remediate modprobe"
       when:
         - not system_is_container
+        - 
       block:
         - name: unload cramfs kernel module
           ansible.builtin.shell: modprobe -r cramfs 2>/dev/null
