@@ -33,6 +33,21 @@
       community.general.modprobe:
         name: cramfs
         state: absent
+    - name: "1.1.1.1 | PATCH | Remediate modprobe"
+      when:
+        - not system_is_container
+      block:
+        - name: unload cramfs kernel module
+          ansible.builtin.shell: modprobe -r cramfs 2>/dev/null
+        - name: disable cramfs kernel module
+          ansible.builtin.shell: rmmod cramfs 2>/dev/null
+        - name: create 60-cramfs.conf with content
+          ansible.builtin.copy:
+            dest: /etc/modprobe.d/60-cramfs.conf
+            content: |
+              install cramfs /bin/false
+              blacklist cramfs
+        
 
 - name: "1.1.1.2 | PATCH | Ensure freevxfs kernel module is not available"
   when: rhel8cis_rule_1_1_1_2

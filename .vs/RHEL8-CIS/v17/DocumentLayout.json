@@ -1,12 +1,156 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\main.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tasks\\main.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\section_5\\cis_5.2.4.x.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tasks\\section_5\\cis_5.2.4.x.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\section_1\\main.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tasks\\section_1\\main.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\section_1\\cis_1.1.2.1.x.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tasks\\section_1\\cis_1.1.2.1.x.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\collections\\requirements.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:collections\\requirements.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\defaults\\main.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:defaults\\main.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\section_1\\cis_1.1.1.x.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tasks\\section_1\\cis_1.1.1.x.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\site.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:site.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cis_5.2.4.x.yml",
+              "DocumentMoniker": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\section_5\\cis_5.2.4.x.yml",
+              "RelativeDocumentMoniker": "tasks\\section_5\\cis_5.2.4.x.yml",
+              "ToolTip": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\section_5\\cis_5.2.4.x.yml",
+              "RelativeToolTip": "tasks\\section_5\\cis_5.2.4.x.yml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-09-02T19:30:26.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.yml",
+              "DocumentMoniker": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\section_1\\main.yml",
+              "RelativeDocumentMoniker": "tasks\\section_1\\main.yml",
+              "ToolTip": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\section_1\\main.yml",
+              "RelativeToolTip": "tasks\\section_1\\main.yml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-09-02T19:27:33.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "requirements.yml",
+              "DocumentMoniker": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\collections\\requirements.yml",
+              "RelativeDocumentMoniker": "collections\\requirements.yml",
+              "ToolTip": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\collections\\requirements.yml",
+              "RelativeToolTip": "collections\\requirements.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-09-02T19:23:53.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.yml",
+              "DocumentMoniker": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\defaults\\main.yml",
+              "RelativeDocumentMoniker": "defaults\\main.yml",
+              "ToolTip": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\defaults\\main.yml",
+              "RelativeToolTip": "defaults\\main.yml",
+              "ViewState": "AgIAADcCAAAAAAAAAIAwwEUCAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-09-02T18:51:16.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cis_1.1.2.1.x.yml",
+              "DocumentMoniker": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\section_1\\cis_1.1.2.1.x.yml",
+              "RelativeDocumentMoniker": "tasks\\section_1\\cis_1.1.2.1.x.yml",
+              "ToolTip": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\section_1\\cis_1.1.2.1.x.yml",
+              "RelativeToolTip": "tasks\\section_1\\cis_1.1.2.1.x.yml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-09-02T16:16:54.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "cis_1.1.1.x.yml",
+              "DocumentMoniker": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\section_1\\cis_1.1.1.x.yml",
+              "RelativeDocumentMoniker": "tasks\\section_1\\cis_1.1.1.x.yml",
+              "ToolTip": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\section_1\\cis_1.1.1.x.yml",
+              "RelativeToolTip": "tasks\\section_1\\cis_1.1.1.x.yml",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAAAAUBAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-09-02T16:14:18.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.yml",
+              "DocumentMoniker": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\main.yml",
+              "RelativeDocumentMoniker": "tasks\\main.yml",
+              "ToolTip": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\tasks\\main.yml",
+              "RelativeToolTip": "tasks\\main.yml",
+              "ViewState": "AgIAALIAAAAAAAAAAAAwwLoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-09-02T16:08:30.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.yml",
+              "DocumentMoniker": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\site.yml",
+              "RelativeDocumentMoniker": "site.yml",
+              "ToolTip": "C:\\Users\\bkasinger\\source\\repos\\RHEL8-CIS\\site.yml",
+              "RelativeToolTip": "site.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-09-02T16:08:00.019Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

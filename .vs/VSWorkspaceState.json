@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\collections",
+    "\\defaults",
+    "\\tasks",
+    "\\tasks\\section_1",
+    "\\tasks\\section_5",
+    "\\vars"
   ],
-  "SelectedNode": "\\C:\\Users\\bkasinger\\Source\\Repos\\RHEL8-CIS",
+  "SelectedNode": "\\tasks\\section_5\\cis_5.2.4.x.yml",
   "PreviewInSolutionExplorer": false
 }
