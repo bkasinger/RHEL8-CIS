@@ -120,7 +120,7 @@
   block:
     - name: "PRELIM | AUDIT | Check authselect profile name has been updated"
       ansible.builtin.assert:
-        that: rhel8cis_authselect_custom_profile_name != 'cis_example_profile'
+        that: rhel8cis_authselect_custom_profile_name != 'custom/cis'
         fail_msg: "You still have the default name for your authselect profile"
 
     - name: "PRELIM | AUDIT | Check authselect profile is selected"
